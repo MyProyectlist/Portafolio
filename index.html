@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Codificador de Texto</title>
+</head>
+
+<body>
+  <header>
+    <h1><img src="img/logo1.png" alt="logo" id="logo"></h1>
+  </header>
+
+  <main>
+    <div class="consola">
+      <code class="bash">
+        <p class="letrero" id="mensaje">
+          *********************************************
+          <br>
+          * CODIFICADOR Y DECODIFICADOR DE TEXTO CODE *
+          <br>
+          *********************************************
+        </p>
+        <br>
+        <p>
+          ¡ BIENVENIDO!
+          <br>
+          <br>
+          Hola <b>explorador</b>. Te damos la Bienvenida a <i>CODE</i>
+          aqui podras codificar y decodificar tus mensajes para enviarselos
+          a tus amigos.
+        </p>
+        <br>
+        <p id="barra"></p>
+        <br>
+        <p id="cuadro">
+          »»» Aqui Aparesera el Resultado «««
+        </p>
+        <p id="icono" hidden>☹</p>
+        <div id="btnCopy">
+          <input type="button" value="[copiar]" id="copiar" hidden>
+        </div>
+
+    </code>
+    </div>
+    <form action="">
+      <textarea name="textInput" id="textInput" cols="30" rows="1" placeholder="Ingresa el Texto..."
+        autofocus></textarea>
+      <input type="button" value="Codificar" id="codificar" class="botones">
+      <input type="button" value="Decodificar" id="decodificar" class="botones">
+    </form>
+  </main>
+  <footer>
+    <ul>
+      <li><img src="img/usuario.png" alt="usuario">Esteban_TR
+      </li>
+      <li><img src="img/GitHub.png" alt="gitHub"> <a href="https://gist.github.com/MyProyectlist">GitHub</a> </li>
+      <li><img src="img/LinkedIn-Icon.png" alt="Linkedin"> <a href="https://www.linkedin.com/in/estebantr"> Linkedin</a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
+
+<script src="codificador.js"></script>
